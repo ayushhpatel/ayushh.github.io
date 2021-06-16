@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayush's website</title>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+  <link rel="stylesheet" href="pw.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+      <div class="navbar-menu">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+        <img src="moon (2).png" alt="Moon Img" id="icon">
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home -->
+  <section id="home">
+    <div class="inner-width">
+      <div class="content">
+        <h1>Hi I'm</h1>
+        <div class="sm">
+          <a href="https://twitter.com/AyushPa29191085" class="fab fa-twitter" target="_blank"></a><a>|</a>
+          <a href="https://www.instagram.com/ayushhh.patel" class="fab fa-instagram" target="_blank"></a><a>|</a>
+          <a href="https://www.linkedin.com/in/ayush-patel-53b809204/" class="fab fa-linkedin-in" target="_blank"></a>
+        </div>
+        <div class="buttons">
+          <a href="#">Feedback</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="head">
+      <h2><strong>About</strong></h2>
+      <h3><strong>Hi! I'm Ayush</strong></h3>
+    </div>
+    <div class="style">
+      <ul>
+        <li class="float"><strong>Freelancer</strong></li>
+        <li class="float"><strong>Developer</strong></li>
+        <li class="float"><strong>Programmer</strong></li>
+      </ul>
+    </div>
+    <p>Hi,I'm Ayush Patel currently pursuing BTech in <strong>Computer Engineering</strong> from <strong>Dharmsinh Desai University</strong>.I did my schooling from METAS OF ADVENTIST SCHOOL and obtained <strong>90.2%</strong> in my 10th boards and <strong>90%</strong> in my 12th boards examination.My hoobies include <strong>Web Designing</strong> <i class="fas fa-pager"></i> and <strong>Video Editing</strong> <i class="fas fa-video"></i>  besides this in my free time I love to play <strong>Cricket</strong>.</p>
+</section>
+
+  <!-- Education -->
+  <section id="education">
+    <div class="edu">
+      <h2><strong>Education</strong></h2>
+    </div>
+    <div class="skills">
+      <div class="skill">
+        <div class="skill-info">
+          <span>HTML</span>
+          <span>90%</span>
+        </div>
+        <div class="skill-bar html"></div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-info">
+          <span>CSS</span>
+          <span>80%</span>
+        </div>
+        <div class="skill-bar css"></div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-info">
+          <span>Javascript</span>
+          <span>20%</span>
+        </div>
+        <div class="skill-bar js"></div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-info">
+          <span>PHP</span>
+          <span>80%</span>
+        </div>
+        <div class="skill-bar php"></div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-info">
+          <span>MySQL</span>
+          <span>60%</span>
+        </div>
+        <div class="skill-bar mysql"></div>
+      </div>
+
+      <div class="skill">
+        <div class="skill-info">
+          <span>C++</span>
+          <span>60%</span>
+        </div>
+        <div class="skill-bar cs"></div>
+      </div>
+  </section>
+  <section id="contact">
+    <div class="chead">
+      <h2><strong>Contact Me</strong></h2>
+    </div>
+    <div class="contact-info">
+    <div class="item">
+      <i class="fas fa-mobile-alt fa-3x"></i>
+      +91 7572893540
+    </div>
+    <div class="item">
+      <i class="fas fa-envelope fa-3x"></i>
+      ayushp1602@gmail.com
+    </div>
+    <div class="item">
+      <i class="fas fa-map-marker-alt fa-3x"></i>
+      Surat,Gujarat
+    </div>
+    </div>
+    <form action="#" class="contact-form">
+      <input type="text" class="nameZone" placeholder="Your Full Name">
+      <input type="email" class="emailZone" placeholder="Your Email">
+      <input type="text" class="subjectZone" placeholder="Subject">
+      <textarea class="messageZone" placeholder="Message"></textarea>
+      <input type="submit" value="Send Message" class="btn">
+    </form>
+  </div>
+</section>
+
+<!-- Footer -->
+<section id="footer">
+  <h4><i class="fas fa-copyright"></i>2020|Designed By Ayush</h4>
+</section>
+</body>
+<script>
+  var icon=document.getElementById("icon");
+
+  icon.onclick=function(){
+    document.body.classList.toggle("dark-theme");
+    if(document.body.classList.contains("dark-theme")){
+      icon.src="sunny.png";
+    }
+    else{
+      icon.src="moon (2).png";
+    }
+  }
+</script>
+</html>
