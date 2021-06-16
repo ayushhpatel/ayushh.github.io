@@ -369,7 +369,7 @@
       width: 100%;
     }
     #about,#education{
-      min-height:90vh;
+      min-height:100vh;
     }
   }
 
@@ -443,6 +443,6 @@
       font-size: 15px;
     }
     #about,#education{
-      min-height:90vh;
+      min-height:100vh;
     }
   }
